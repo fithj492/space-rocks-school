@@ -6,6 +6,7 @@
     {"id":{"name":"obj_spaceShip","path":"objects/obj_spaceShip/obj_spaceShip.yy",},"order":1,},
     {"id":{"name":"spr_spaceShip","path":"sprites/spr_spaceShip/spr_spaceShip.yy",},"order":0,},
     {"id":{"name":"spr_astroid_small","path":"sprites/spr_astroid_small/spr_astroid_small.yy",},"order":1,},
+    {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":4,},
     {"id":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},"order":0,},
     {"id":{"name":"spr_astroid_huge","path":"sprites/spr_astroid_huge/spr_astroid_huge.yy",},"order":3,},
     {"id":{"name":"spr_astroid_med","path":"sprites/spr_astroid_med/spr_astroid_med.yy",},"order":2,},
