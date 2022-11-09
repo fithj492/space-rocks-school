@@ -1,3 +1,5 @@
+lives -= 1;
+
 // destroy the ship
 
 instance_destroy();

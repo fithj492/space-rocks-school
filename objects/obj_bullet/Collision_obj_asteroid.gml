@@ -1,4 +1,6 @@
 
+score += 10;
+
 // destroy bullet
 instance_destroy();
 
