@@ -10,13 +10,16 @@ with (other)
 	//or be destroyed
 	if (sprite_index == spr_astroid_huge)
 	{
-		repeat(4)
+		repeat(2)
 		{
 			var asteroid = instance_create_layer(x, y, "instances" , obj_asteroid);
 			asteroid.sprite_index = spr_astroid_med;
 		}
 	} else if (sprite_index == spr_astroid_med) {
+		repeat (4)
+		{
 		var asteroid = instance_create_layer(x, y, "instances" , obj_asteroid);
 		asteroid.sprite_index = spr_astroid_small;
+		}
 	}
 }
