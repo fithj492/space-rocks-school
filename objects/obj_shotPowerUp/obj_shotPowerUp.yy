@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_spaceShip",
+  "name": "obj_shotPowerUp",
   "spriteId": {
-    "name": "spr_spaceShip",
-    "path": "sprites/spr_spaceShip/spr_spaceShip.yy",
+    "name": "spr_shotPowerUp",
+    "path": "sprites/spr_shotPowerUp/spr_shotPowerUp.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,10 +25,7 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_asteroid","path":"objects/obj_asteroid/obj_asteroid.yy",},},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":0,"collisionObjectId":null,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_shotPowerUp","path":"objects/obj_shotPowerUp/obj_shotPowerUp.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
