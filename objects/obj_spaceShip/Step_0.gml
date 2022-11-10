@@ -11,16 +11,19 @@ if (keyboard_check(vk_up))
 {
 	motion_add(image_angle, 0.05);
 }
-if (keyboard_check(vk_space))
+if (keyboard_check_pressed(vk_space))
 {
+	if (sprite_index == spr_spaceShip)
+	{
 	var inst = instance_create_layer(x,y,"instances", obj_bullet);
 	inst.direction = image_angle
+	}
 	if (sprite_index == spr_shotGun)
 	{
 		repeat(2)
 		{
 		var inst = instance_create_layer(x,y,"instances", obj_bullet);
-		inst.direction = image_angle - random_range(-20,20);
+		inst.direction = image_angle - random_range(-75,75);
 		}
 	}
 }
