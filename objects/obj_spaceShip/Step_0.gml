@@ -20,7 +20,7 @@ if (keyboard_check_pressed(vk_space))
 	}
 	if (sprite_index == spr_shotGun)
 	{
-		repeat(3)
+		repeat(500)
 		{
 		var inst = instance_create_layer(x,y,"instances", obj_bullet);
 		inst.direction = image_angle - random_range(-75,75);

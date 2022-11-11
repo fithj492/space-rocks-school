@@ -69,7 +69,7 @@ if (room== rm_game)
 			irandom_range(0+100,room_height*0.3-100),
 			irandom_range(room_height*0.7+100,room_width-100)
 		);
-		instance_create_layer(xxxx,yyyy,"instances", obj_health);
+		instance_create_layer(xxxx,yyyy,"instances", obj_sheild);
 	}
 	alarm[2] = 60;
 }
@@ -88,7 +88,7 @@ if (room== rm_game)
 			irandom_range(0+100,room_height*0.3-100),
 			irandom_range(room_height*0.7+100,room_width-100)
 		);
-		instance_create_layer(xxxxx,yyyyy,"instances", obj_health);
+		instance_create_layer(xxxxx,yyyyy,"instances", obj_sheild);
 	}
 	alarm[2] = 60;
 }

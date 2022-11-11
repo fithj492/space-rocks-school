@@ -27,7 +27,7 @@ if (choose (0,1) == 0)
 	var yyyyy = choose(0+50, room_height-50);
 }
 
-instance_create_layer(xxxx, yyyy, "Instances", obj_health);
+instance_create_layer(xxxx, yyyy, "Instances", obj_sheild);
 instance_create_layer(xxxxx, yyyyy, "Instances", obj_destroyer);
 
 alarm[2] = 30*room_speed;
