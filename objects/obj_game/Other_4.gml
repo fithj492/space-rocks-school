@@ -38,19 +38,19 @@ if (room== rm_game)
 
 if (room== rm_game)
 {
-	repeat(5)
+	repeat(2)
 	{
-		var xx = choose
+		var xxx = choose
 		(
 			irandom_range(0+100,room_width*0.3-100),
 			irandom_range(room_width*0.7+100,room_width-100)
 		);
-		var yy = choose
+		var yyy = choose
 		(
 			irandom_range(0+100,room_height*0.3-100),
 			irandom_range(room_height*0.7+100,room_width-100)
 		);
-		instance_create_layer(xx,yy,"instances", obj_shipPowerUp);
+		instance_create_layer(xxx,yyy,"instances", obj_shipPowerUp);
 	}
 	alarm[1] = 60;
 }
