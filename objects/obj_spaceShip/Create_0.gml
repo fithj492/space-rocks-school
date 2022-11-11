@@ -8,5 +8,10 @@ spr_spaceShip,
 spr_spaceShip,
 spr_spaceShip,
 spr_spaceShip,
+spr_spaceShip,
+spr_spaceShip,
+spr_spaceShip,
+spr_spaceShip,
+spr_spaceShip,
 spr_spaceShip
 );

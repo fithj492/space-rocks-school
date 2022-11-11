@@ -2,9 +2,11 @@
 // You can write your code in this editor
 switch(room)
 {
+	// show text
 	case rm_game:
 		draw_text(20,20, "SCORE"+string(score));
 		draw_text(20,40, "SHIPS"+string(lives));
+		draw_text(20,60, "SHEILD"+string(health));
 		break;
 		
 	case rm_start:

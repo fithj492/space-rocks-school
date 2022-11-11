@@ -1,9 +1,14 @@
 
 
 // destroy the ship if health less than 1
+health -= 1;
 
-instance_destroy();
-lives -= 1;
+if (health <= 0)
+{
+	instance_destroy();
+	lives -= 1;
+	health = 0;
+}
 
 
 repeat (10)

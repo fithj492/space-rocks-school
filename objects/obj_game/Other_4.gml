@@ -55,4 +55,40 @@ if (room== rm_game)
 	alarm[1] = 60;
 }
 
+if (room== rm_game)
+{
+	repeat(1)
+	{
+		var xxxx = choose
+		(
+			irandom_range(0+100,room_width*0.3-100),
+			irandom_range(room_width*0.7+100,room_width-100)
+		);
+		var yyyy = choose
+		(
+			irandom_range(0+100,room_height*0.3-100),
+			irandom_range(room_height*0.7+100,room_width-100)
+		);
+		instance_create_layer(xxxx,yyyy,"instances", obj_health);
+	}
+	alarm[2] = 60;
+}
 
+if (room== rm_game)
+{
+	repeat(1)
+	{
+		var xxxxx = choose
+		(
+			irandom_range(0+100,room_width*0.3-100),
+			irandom_range(room_width*0.7+100,room_width-100)
+		);
+		var yyyyy = choose
+		(
+			irandom_range(0+100,room_height*0.3-100),
+			irandom_range(room_height*0.7+100,room_width-100)
+		);
+		instance_create_layer(xxxxx,yyyyy,"instances", obj_health);
+	}
+	alarm[2] = 60;
+}
