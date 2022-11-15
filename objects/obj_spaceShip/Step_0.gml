@@ -13,7 +13,18 @@ if (keyboard_check(vk_up))
 }
 if (keyboard_check_pressed(vk_space))
 {
-	var inst = instance_create_layer(x,y,"instances", obj_bullet);
-	inst.direction = image_angle;
+	if (sprite_index == spr_spaceShip)
+	{
+		var inst = instance_create_layer(x,y,"instances", obj_bullet);
+		inst.direction = image_angle
+	}
+	if (sprite_index == spr_shotGun)
+	{
+		repeat(500)
+		{
+		var inst = instance_create_layer(x,y,"instances", obj_bullet);
+		inst.direction = image_angle - random_range(-75,75);
+		}
+	}
 }
 move_wrap(true,true,sprite_width/2);
