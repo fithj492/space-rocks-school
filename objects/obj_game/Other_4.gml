@@ -92,3 +92,5 @@ if (room== rm_game)
 	}
 	alarm[2] = 60;
 }
+
+//display_set_gui_size(cameraHight, cameraWidth);
