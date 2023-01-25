@@ -11,6 +11,7 @@
     {"id":{"name":"spr_spaceShip","path":"sprites/spr_spaceShip/spr_spaceShip.yy",},"order":0,},
     {"id":{"name":"spr_astroid_small","path":"sprites/spr_astroid_small/spr_astroid_small.yy",},"order":1,},
     {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},"order":1,},
+    {"id":{"name":"spawn_off_camera","path":"scripts/spawn_off_camera/spawn_off_camera.yy",},"order":0,},
     {"id":{"name":"spr_shipPowerUp","path":"sprites/spr_shipPowerUp/spr_shipPowerUp.yy",},"order":8,},
     {"id":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},"order":0,},
     {"id":{"name":"spr_bullet","path":"sprites/spr_bullet/spr_bullet.yy",},"order":4,},

@@ -1,13 +1,13 @@
-/// @description Insert description here
+/// @camera
 // follow ship if its in the room
 
 if (instance_exists(target)) 
 {
-	cameraX = target.x;
-	cameraY = target.y;
+	global.cameraX = target.x-500;
+	global.cameraY = target.y-200;
 	
-	cameraX = clamp(cameraX, 0, room_width - cameraWidth / 2);
-	cameraY = clamp(cameraY, 0, room_height - cameraHight / 2);
+	global.cameraX = clamp(global.cameraX, 0, room_width - global.cameraWidth / 2 + 500);
+	global.cameraY = clamp(global.cameraY, 0, room_height - global.cameraHeight / 2 + 200);
 }
 
-camera_set_view_pos(view_camera[0],cameraX, cameraY);
+camera_set_view_pos(view_camera[0],global.cameraX, global.cameraY);
