@@ -2,6 +2,7 @@ if (room== rm_game)
 {
 	spawn_off_camera(obj_asteroid, 6);
 	alarm[0] = 60;
+	score = 0;
 }
 
 if (room== rm_game)
