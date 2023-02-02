@@ -12,6 +12,7 @@
     {"id":{"name":"spr_spaceShip","path":"sprites/spr_spaceShip/spr_spaceShip.yy",},"order":0,},
     {"id":{"name":"Spr_shade_0","path":"sprites/Spr_shade_0/Spr_shade_0.yy",},"order":11,},
     {"id":{"name":"spr_astroid_small","path":"sprites/spr_astroid_small/spr_astroid_small.yy",},"order":1,},
+    {"id":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},"order":4,},
     {"id":{"name":"spawn_off_camera","path":"scripts/spawn_off_camera/spawn_off_camera.yy",},"order":0,},
     {"id":{"name":"spr_shipPowerUp","path":"sprites/spr_shipPowerUp/spr_shipPowerUp.yy",},"order":8,},
     {"id":{"name":"fnt_text","path":"fonts/fnt_text/fnt_text.yy",},"order":0,},
@@ -49,6 +50,7 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"rm_start","path":"rooms/rm_start/rm_start.yy",},},
     {"roomId":{"name":"rm_game","path":"rooms/rm_game/rm_game.yy",},},
     {"roomId":{"name":"rm_win","path":"rooms/rm_win/rm_win.yy",},},
     {"roomId":{"name":"rm_gameOver","path":"rooms/rm_gameOver/rm_gameOver.yy",},},
