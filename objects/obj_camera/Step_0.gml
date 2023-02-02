@@ -12,5 +12,14 @@ if (instance_exists(target))
 
 camera_set_view_pos(view_camera[0],global.cameraX, global.cameraY);
 
-layer_x("Background", global.cameraX * 0.9);
-layer_y("Background", global.cameraY * 0.9);
+layer_x("parallax_0", global.cameraX * 0.97);
+layer_y("parallax_0", global.cameraY * 0.97);
+
+layer_x("parallax_1", global.cameraX * 0.9);
+layer_y("parallax_1", global.cameraY * 0.9);
+
+layer_x("parallax_2", global.cameraX * 0.85);
+layer_y("parallax_2", global.cameraY * 0.85);
+
+layer_x("shade_0", global.cameraX * 0.75);
+layer_y("shade_0", global.cameraY * 0.75);
